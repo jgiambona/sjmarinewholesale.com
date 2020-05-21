@@ -1,0 +1,14 @@
+/* Stuck menu styles
+========================================================*/
+.isStuck {
+  background: url(../img/pattern1.png) repeat;
+  padding: 5px 0;
+  z-index: 999;
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 979px) {
+  .isStuck {
+    display: none !important;
+  }
+}
